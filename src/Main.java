@@ -6,6 +6,7 @@ public class Main {
         task2();
         task3();
         task4();
+
     }
 
     public static void task1() {
@@ -28,53 +29,32 @@ public class Main {
             if (i != oneArr.length - 1) {
                 System.out.print(", ");
             }
-            System.out.println();
-
-            for (i = 0; i < twoArr.length; i++) {
-                System.out.print(twoArr[i]);
-
-                if (i != twoArr.length - 1) {
-                    System.out.print(", ");
-                }
-                System.out.println();
-
-                for (i = 0; i < threeArr.length; i++) {
-                    System.out.print(threeArr[i]);
-
-                    if (i != threeArr.length - 1) {
-                        System.out.print(", ");
-                    }
-                }
-            }
         }
+
         System.out.println();
-        // эта же задача
 
-        int[] fourArr = {1, 2, 3};
-
-        for (int i = 0; i < fourArr.length; i = i + 1) {
-            System.out.print(fourArr[i]);
-
-            if (i != fourArr.length - 1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println();
-        // эта же задача
-        double[] fiveArr = {1.57, 7.654, 9.986};
-
-        for (int i = 0; i < fiveArr.length; i++) {
+        for (int i = 0; i < twoArr.length; i++) {
             System.out.print(twoArr[i]);
 
-            if (i != fiveArr.length - 1) {
+            if (i != twoArr.length - 1) {
                 System.out.print(", ");
-
             }
+        }
+
+
+        System.out.println();
+
+        for (int i = 0; i < threeArr.length; i++) {
+            System.out.print(threeArr[i]);
+
+            if (i != threeArr.length - 1) {
+                System.out.print(", ");
+            }
+
         }
         System.out.println();
     }
-
-    public static void task3() {
+    public static void task3 () {
         System.out.println("Задание 3");
 
         int[] oneArr = {1, 2, 3};
@@ -108,7 +88,7 @@ public class Main {
         }
         System.out.println();
     }
-    public static void task4(){
+    public static void task4 () {
         System.out.println("Задание 4");
 
         int[] oneArr = {1, 2, 3};
@@ -121,3 +101,5 @@ public class Main {
         System.out.println(Arrays.toString(oneArr));
     }
 }
+
+
